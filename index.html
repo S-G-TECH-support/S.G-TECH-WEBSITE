@@ -9,6 +9,13 @@
       type="image/icon"
       href="/image/Picsart_23-10-22_13-21-18-815.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- External-Link -->
     <!-- style-Link -->
     <link rel="stylesheet" href="/style.css" />
@@ -16,7 +23,7 @@
     <!-- External-Link -->
   </head>
   <body>
-    <section class="header" id="home">
+    <section class="header section_1 section" id="home">
       <div class="nav_container">
         <div class="logo">
           <p class="logo_text">S.G <span class="tech">TECH</span></p>
@@ -31,17 +38,52 @@
         <div class="buttons">
           <button class="btn_login_1 btn">Login</button>
           <button class="btn_login_2 btn">Register</button>
+          <!-- <img src="/image/icon/menu.png" alt="" class="menu-img" /> -->
+          <i class="fa-solid fa-user"></i>
         </div>
+        <!-- <div class="menu">
+          <img src="/image/icon/menu.png" alt="" class="menu-img">
+        </div> -->
       </div>
       <div class="intro_container">
         <img src="/image/groupteam.jpg" alt="S.G TECH" class="intro_image" />
         <p class="moto">We're changing the whole game.</p>
-        <button class="btn_moto btn">Get Started</button>
-        <button class="btn_moto btn btn_2">View Service</button>
+        <button class="btn_moto bt">Get Started</button>
+        <button class="btn_moto bt btn_2">View Service</button>
       </div>
+      
     </section>
 
-    <section class="section_2" id="about_us">
+    <!-- mobile-view below menu -->
+    <div class="below-menu">
+      <div class="icon-con active-ico" data-tab="1">
+        <li>
+          <i class="fa-solid fa-house i-con"></i
+          ><span>Home</span>
+        </li>
+      </div>
+      <div class="icon-con" data-tab="2">
+        <li>
+          <i class="fa-solid fa-info i-con"></i>
+          <span>About</span>
+        </li>
+      </div>
+      <div class="icon-con" data-tab="3">
+        <li>
+          <i class="fa-solid fa-bolt i-con"></i>
+          <span>Service</span>
+        </li>
+      </div>
+      <div class="icon-con" data-tab="4">
+        <li>
+          <i class="fa-solid fa-phone i-con"></i> <br>
+          <span>Contact</span>
+        </li>
+      </div>
+    </div>
+    <!-- mobile-view below menu -->
+
+    <section class="section_2 section" id="about_us">
       <img
         src="/image/businessman-hand-holding-wooden-building-blocks_42256-1121.avif"
         alt=""
@@ -66,11 +108,15 @@
       </div>
       <div class="profile">
         <div class="nam">
-          <p class="name">RAJASURYA R <span class="name name_s">(B.E.CSE)</span></p>
+          <p class="name">
+            RAJASURYA R <span class="name name_s">(B.E.CSE)</span>
+          </p>
           <p class="name name_s">(FOUNDER)</p>
         </div>
         <div class="nam">
-          <p class="name">RAJAGURU R <span class="name name_s">(B.E.CSE)</span></p>
+          <p class="name">
+            RAJAGURU R <span class="name name_s">(B.E.CSE)</span>
+          </p>
           <p class="name name_s">(CO-FOUNDER)</p>
         </div>
       </div>
